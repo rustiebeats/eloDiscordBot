@@ -1,13 +1,18 @@
 {
-	"extends": "eslint:recommended",
+	"extends": "airbnb",
 	"env": {
 		"node": true,
 		"es6": true
 	},
 	"parserOptions": {
+		"sourceType": "module",
 		"ecmaVersion": 2019
 	},
 	"rules": {
-
+		"no-console": "off",
+		"no-debugger": "off",
+		"default-case": "off",
+		"import/prefer-default-export": "off",
+		"import/extensions": ["off"]
 	}
 }
