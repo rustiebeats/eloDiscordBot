@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "inhouse bot for Starcraft: Remastered",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rustiebeats/starcraftDiscordBot.git"
+  },
+  "author": "rustiebeats\\skdltm08@gmail.com\\https://github.com/rustiebeats",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rustiebeats/starcraftDiscordBot/issues"
+  },
+  "homepage": "https://github.com/rustiebeats/starcraftDiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
