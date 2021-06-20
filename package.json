@@ -18,5 +18,8 @@
   "homepage": "https://github.com/rustiebeats/starcraftDiscordBot#readme",
   "dependencies": {
     "discord.js": "^12.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.29.0"
   }
 }
