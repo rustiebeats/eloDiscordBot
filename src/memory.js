@@ -3,7 +3,7 @@ import fs from 'fs';
 let dictionary = {};
 
 export default {
-  dictionary,
+  _dictionary: dictionary,
   boot() {
     try {
       dictionary = JSON.parse(fs.readFileSync('dictionary.json'));
