@@ -3,13 +3,15 @@ import fs from 'fs';
 let dictionary = {};
 
 export default {
-  _dictionary: dictionary,
   boot() {
     try {
       dictionary = JSON.parse(fs.readFileSync('dictionary.json'));
     } catch (err) {
       dictionary = {};
     }
+  },
+  getDictionary() {
+    return dictionary;
   },
   get(key, _default = '') {
     if (dictionary[key]) {
