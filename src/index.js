@@ -1,7 +1,7 @@
 import dotenv from 'dotenv';
 import Discord from 'discord.js';
-import router from './router.js';
-import memory from './memory.js';
+import router from './commands/router/router.js';
+import memory from './commands/memory/memory.js';
 
 dotenv.config();
 memory.boot();
