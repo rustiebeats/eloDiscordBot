@@ -1,5 +1,5 @@
-import memory from './memory.js';
-import elo from './elo.js';
+import memory from '../memory/memory.js';
+import elo from '../elo/elo.js';
 
 export default {
   getPlayerList() {

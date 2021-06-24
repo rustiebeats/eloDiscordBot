@@ -5,6 +5,8 @@ export default (client, message, command, args) => {
     case 'ping':
       ping(client, message);
       break;
-
+    case 'queue':
+      queue(client, message);
+      break;
   }
 };
